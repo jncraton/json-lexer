@@ -34,8 +34,8 @@ def lex(src):
     >>> list(lex('[1, "2"]'))
     [('separator', '[', 0), ('number', '1', 1), ('separator', ',', 2), ('string', '2', 4), ('separator', ']', 7)]
 
-    >>> list(lex('{"a", 1}'))
-    [('separator', '{', 0), ('string', 'a', 1), ('separator', ',', 4), ('number', '1', 6), ('separator', '}', 7)]
+    >>> list(lex('{"a": 1}'))
+    [('separator', '{', 0), ('string', 'a', 1), ('separator', ':', 4), ('number', '1', 6), ('separator', '}', 7)]
 
     >>> list(lex('[1, --2]'))
     Traceback (most recent call last):

@@ -40,5 +40,5 @@ def lex(src):
     """
 
 if __name__ == '__main__':
-    with open('example.json') as f:
+    with open(sys.argv[1]) as f:
         [print(t) for t in lex(f.read())]

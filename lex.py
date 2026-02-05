@@ -2,9 +2,10 @@ import re
 import sys
 import enum
 
+
 def lex(src):
-    """ 
-    Returns a generator of (name, value, position) tuples for a simplified 
+    """
+    Returns a generator of (name, value, position) tuples for a simplified
     JSON document.
 
     Examples:
@@ -39,6 +40,7 @@ def lex(src):
     ValueError: Unrecognized token starting at position 4
     """
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     with open(sys.argv[1]) as f:
         [print(t) for t in lex(f.read())]

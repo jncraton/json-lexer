@@ -15,7 +15,7 @@ After completing this experience, learners will be able to:
 You can execute the lexer on example data using:
 
 ```sh
-python3 lex.py example.py
+python3 lex.py example.json
 ```
 
 ## Testing

@@ -28,7 +28,7 @@ make test
 
 ## Tasks
 
-1. Implement the `lex` function in `lex.py`
+1. Implement the `lex` generator in `lex.py`
 2. Ensure all types are correctly identified (boolean, number, string, separator)
 3. Report the correct position for each token
 4. Raise a `ValueError` for unrecognized input

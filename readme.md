@@ -37,3 +37,4 @@ make test
 
 - [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis) on Wikipedia
 - [re](https://docs.python.org/3/library/re.html) module in Python
+- [Python generators](https://peps.python.org/pep-0255/) as introduced in PEP 255

@@ -35,5 +35,5 @@ make test
 
 ## Resources
 
-- [WP: Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
+- [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis) on Wikipedia
 - [re](https://docs.python.org/3/library/re.html) module in Python

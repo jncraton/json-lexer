@@ -1,23 +1,26 @@
-JSON Lexer
-----------
+# JSON Lexer
 
-A class assignment to create a basic lexer for a JSON document.
+Create a basic lexer for a simplified JSON document.
 
-Assignment
-----------
+## Learning Outcomes
 
-Edit the function `lex` in lex.py to make all included doctests pass.
+After completing this experience, learners will be able to:
 
-Testing
--------
+1. Identify lexical patterns in structured text
+2. Implement regular expressions to match language tokens
+3. Handle error conditions in lexical analysis
 
-You can run the tests by calling:
+## Usage
+
+You can execute the lexer on example data using:
 
 ```sh
-python3 -m doctest lex.py
+python3 lex.py
 ```
 
-or
+## Testing
+
+The code includes embedded doctests that can be run using:
 
 ```sh
 make test
